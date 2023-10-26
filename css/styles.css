@@ -155,7 +155,7 @@ h6 {
 }
 /*------------sektone--------*/
 .sektone {
-  padding: 188px 0;
+  padding: 72px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -172,13 +172,14 @@ h6 {
 .bigtext {
   display: flex;
   margin: 0 auto;
-  font-size: 56px;
-  line-height: 1.07;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 496px;
-  margin-bottom: 48px;
+  max-width: 170px;
+  margin-bottom: 72px;
 }
 .button:hover,
 .button:focus {
@@ -281,7 +282,7 @@ h6 {
   margin-bottom: 72px;
 }
 .section-tiem {
-  padding: 120px 0;
+  padding: 96px 28px;
   background: var(--CLOUD, #f4f4fd);
 }
 .div-hero {
@@ -357,10 +358,14 @@ h6 {
 
 .container-our-portfolio {
 }
+.ander-block-wrapper-img {
+}
 .section-our-portfolio {
   background: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .ander-block-wrapper {
   position: relative;
@@ -406,8 +411,6 @@ h6 {
 .servis-liste {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px 24px;
-  row-gap: 48px;
 }
 .servis {
   font-weight: 500;
@@ -421,7 +424,8 @@ h6 {
   margin-bottom: 32px;
 }
 .servis-item {
-  width: calc((100% - 48px) / 3);
+  /*width: calc((100% - 48px) / 3);*/
+
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .servis-item:hover {
@@ -774,12 +778,26 @@ h6 {
   .container {
   }
 }
+/*********@media screen and (min-width: 768px)****/
 @media screen and (min-width: 768px) {
   .container {
     padding-left: 16px;
     padding-right: 16px;
     max-width: 768px;
   }
+  /***************sektone***************/
+  .sektone {
+    padding: 112px 0;
+  }
+  .bigtext {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+  /*********sektion-spdt*********/
   .spdt-list {
     width: calc((100% - 24px) / 2);
   }
@@ -789,11 +807,42 @@ h6 {
   .spdt {
     text-align: left;
   }
+  /****************section-tiem*********/
+
+  /************section-our-portfolio******/
+  .servis-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .servis-liste {
+    gap: 72px 24px;
+  }
 }
+/*********@media screen and (min-width: 1158px)*****/
 @media screen and (min-width: 1158px) {
   .container {
-    padding: 120px 0;
     max-width: 1158px;
+  }
+  /****************sektone***********/
+  .sektone {
+    padding: 188px 0;
+    max-width: 1440px;
+    padding: 188px 0;
+  }
+  .solutions {
+  }
+  .bigtext {
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+  }
+  /**********************sektion-spdt**********/
+  .feature-spdt {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .feture-icon {
     display: flex;
@@ -840,5 +889,15 @@ h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0;
+  }
+  /*****************section-tiem********/
+
+  /***********section-our-portfolio**********/
+  .section-our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .servis-item {
+    width: calc((100% - 48px) / 3);
   }
 }
