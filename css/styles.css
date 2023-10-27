@@ -41,7 +41,6 @@ h6 {
   padding-left: 15px;
   padding-right: 15px;*/
   margin: 0 auto;
-  width: 320px;
 }
 
 /****************header*************/
@@ -164,8 +163,8 @@ h6 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
   margin: auto;
+  max-width: 320px;
 }
 .solutions {
 }
