@@ -164,7 +164,6 @@ h6 {
   background-position: center;
   background-size: cover;
   margin: auto;
-  max-width: 320px;
 }
 .solutions {
 }
@@ -276,12 +275,10 @@ h6 {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  max-width: 162;
   margin: 0 auto;
   margin-bottom: 72px;
 }
 .container-our-team {
-  padding: 96px 28px;
 }
 .section-tiem {
   background: var(--CLOUD, #f4f4fd);
@@ -319,7 +316,6 @@ h6 {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-liste-item img {
-  object-fit: contain;
 }
 .hero {
   font-weight: 500;
@@ -367,8 +363,6 @@ h6 {
   background: #fff;
   padding-top: 96px;
   padding-bottom: 96px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 .ander-block-wrapper {
   position: relative;
@@ -784,6 +778,9 @@ h6 {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .container-our-team {
+    padding: 96px 28px;
+  }
 }
 /*********@media screen and (min-width: 768px)****/
 @media screen and (min-width: 768px) {
@@ -815,6 +812,15 @@ h6 {
     text-align: left;
   }
   /****************section-tiem*********/
+  .hero-liste-item {
+    width: calc((100% - 24px) / 2);
+    width: 264px;
+  }
+  .hero-liste {
+    gap: 64px 24px;
+    display: flex;
+    justify-content: center;
+  }
 
   /************section-our-portfolio******/
   .servis-item {
@@ -828,12 +834,14 @@ h6 {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   /****************sektone***********/
   .sektone {
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
     max-width: 1440px;
-    padding: 188px 0;
   }
   .solutions {
   }
