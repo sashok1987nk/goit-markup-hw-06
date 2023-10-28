@@ -819,7 +819,9 @@ h6 {
       ),
       url(../images/Dark-bg-pl.jpg);
   }
-  @media (min-resolution: 192dpi) {
+  @media (min-resolution: 192dpi),
+    (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx) {
     .sektone {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -896,7 +898,9 @@ h6 {
       ),
       url(../images/people-office.jpg);
   }
-  @media (min-resolution: 192dpi) {
+  @media (min-resolution: 192dpi),
+    (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx) {
     .sektone {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
