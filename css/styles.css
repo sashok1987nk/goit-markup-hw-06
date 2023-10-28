@@ -162,12 +162,22 @@ h6 {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/Dark-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: auto;
 }
+@media (min-resolution: 192dpi) {
+  .sektone {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob-2x.jpg);
+  }
+}
+
 .solutions {
 }
 .bigtext {
@@ -803,6 +813,20 @@ h6 {
   /***************sektone***************/
   .sektone {
     padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-pl.jpg);
+  }
+  @media (min-resolution: 192dpi) {
+    .sektone {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-pl-2x.jpg);
+    }
   }
   .bigtext {
     font-size: 56px;
@@ -812,6 +836,7 @@ h6 {
     max-width: 496px;
     margin-bottom: 36px;
   }
+
   /*********sektion-spdt*********/
   .spdt-list {
     width: calc((100% - 24px) / 2);
@@ -865,6 +890,20 @@ h6 {
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+  }
+  @media (min-resolution: 192dpi) {
+    .sektone {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
+    }
   }
   .solutions {
   }
