@@ -587,8 +587,8 @@ h6 {
   background: var(--DAIRY, #fcfcfc);
   border-radius: 4px;
   position: absolute;
-  /*min-height: 584px;*/
-  max-width: 288px;
+  height: 622px;
+  width: 288px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -730,6 +730,9 @@ h6 {
   line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
 .check-text a {
@@ -739,20 +742,18 @@ h6 {
   line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
-  margin-left: 23px;
 }
-.check-text span {
-  width: 16px;
+.check-text-span {
+  width: 22px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  margin-right: 4px;
+  margin-right: 8px;
   fill: transparent;
 }
 .check-input:checked + .check-text .check-text-span {
@@ -839,7 +840,19 @@ h6 {
   .servis-liste {
     gap: 72px 24px;
   }
+  /***************modal*******************/
+  .modal {
+    width: 408px;
+    height: 584px;
+  }
+  .check-text-span {
+    width: 16px;
+  }
+  .modal-title {
+    width: 360px;
+  }
 }
+
 /*********@media screen and (min-width: 1158px)*****/
 @media screen and (min-width: 1158px) {
   .container {
