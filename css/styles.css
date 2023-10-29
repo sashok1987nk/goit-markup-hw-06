@@ -211,6 +211,9 @@ h6 {
   gap: 40px;
   align-items: center;
 }
+.mob-menu-header-adres-list {
+  margin-top: auto;
+}
 .menu-open-btn {
   width: 24px;
   height: 24px;
