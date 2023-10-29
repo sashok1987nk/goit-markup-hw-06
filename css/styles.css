@@ -213,6 +213,9 @@ h6 {
   align-items: center;
 }
 .mob-menu-header-adres-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   margin-top: auto;
 }
 .menu-open-btn {
