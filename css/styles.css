@@ -52,7 +52,7 @@ h6 {
   padding-bottom: 26px;
   display: flex;
   align-items: center;
-  width: 1158px;
+  /*width: 1158px;*/
   padding: 0 15px;
 }
 .header {
@@ -701,7 +701,6 @@ h6 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: flex;
   justify-content: center;
   gap: 16px;
 }
@@ -941,7 +940,65 @@ h6 {
   .container-our-team {
     padding: 96px 28px;
   }
+  /************footer*************/
+  .footer {
+    padding: 0;
+  }
+  .footer-container {
+    margin-right: 0;
+  }
+  .footer-wrapper {
+    padding-top: 98px;
+    padding-bottom: 102px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-logo {
+    margin-right: 0;
+  }
+  .webstudio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+  .header-logo-footer {
+    margin-bottom: 0;
+  }
+  .foter-tittli-social {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+  }
+  .footer-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .foter-subscribe-par {
+    margin-left: 0;
+  }
+  .footer-form {
+    flex-direction: column;
+  }
+  .foter-subscribe {
+    margin-left: 0;
+    width: 288px;
+  }
+  .footer-par {
+    max-width: 288px;
+  }
+  .foter-subscribe-btn-svg {
+    margin-left: 0;
+  }
+  .foter-subscribe-btn {
+    width: 165px;
+    margin: auto;
+  }
 }
+
 /*********@media screen and (min-width: 768px)****/
 @media screen and (min-width: 768px) {
   .container {
@@ -949,6 +1006,36 @@ h6 {
     padding-right: 16px;
     max-width: 768px;
   }
+  /*************header*********/
+  .menu-open-btn {
+    display: none;
+  }
+  .header-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .header-ul-spc {
+    display: block;
+    display: flex;
+    padding: 0;
+    margin-right: 80px;
+  }
+  .header-logo {
+    margin-right: 100px;
+  }
+  .header-adres-list {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .header-Contacts {
+    padding: 0;
+  }
+  .header-link-plus::after {
+    display: block;
+  }
+
   /***************sektone***************/
   .sektone {
     padding: 112px 0;
@@ -1017,6 +1104,37 @@ h6 {
   .modal-title {
     width: 360px;
   }
+  /*****************footer***********/
+  .footer-wrapper {
+    padding-top: 98px;
+    padding-bottom: 104px;
+    padding-left: 108px;
+    padding-right: 164px;
+    justify-content: flex-start;
+  }
+  .foter-subscribe {
+    margin-left: 0;
+    width: 264px;
+  }
+  .footer-button {
+    align-items: normal;
+  }
+  .webstudio {
+    justify-content: flex-start;
+  }
+  .footer-form {
+    flex-direction: row;
+  }
+  .footer-container {
+    margin-bottom: 72px;
+    margin-right: 24px;
+  }
+  .foter-tittli-social {
+    align-items: flex-start;
+  }
+  .footer-par {
+    max-width: 264px;
+  }
 }
 
 /*********@media screen and (min-width: 1158px)*****/
@@ -1025,6 +1143,13 @@ h6 {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  /*******header*********/
+  .header-logo {
+    margin-right: 76px;
+  }
+  .header-adres-list {
+    gap: 40px;
   }
   /****************sektone***********/
   .sektone {
@@ -1128,5 +1253,21 @@ h6 {
   }
   .servis-item {
     width: calc((100% - 48px) / 3);
+  }
+  /****************footer***************/
+  .footer-wrapper {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .footer-container {
+    margin-right: 120px;
+  }
+  .foter-tittli-social {
+    align-items: normal;
+    margin-right: 80px;
+  }
+  .webstudio {
+    justify-content: flex-start;
   }
 }
