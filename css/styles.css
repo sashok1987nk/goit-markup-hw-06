@@ -940,6 +940,9 @@ h6 {
   .container-our-team {
     padding: 96px 28px;
   }
+  .servis-liste {
+    gap: 48px;
+  }
   /************footer*************/
   .footer {
     padding: 0;
@@ -1186,6 +1189,10 @@ h6 {
   }
   /**********************sektion-spdt**********/
   .feature-spdt {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .sektion-spdt {
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -1208,7 +1215,7 @@ h6 {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
   }
   .ul-spdt {
     gap: 24px;
@@ -1262,6 +1269,14 @@ h6 {
   }
   .footer-container {
     margin-right: 120px;
+    margin-bottom: 0;
+  }
+  .footer-par {
+    margin: 0;
+  }
+  .foter-tittli-social {
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .foter-tittli-social {
     align-items: normal;
